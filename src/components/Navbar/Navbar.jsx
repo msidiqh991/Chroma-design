@@ -22,12 +22,13 @@ const NavLinks = [
     link: "#",
   },
 ];
+
 const Navbar = () => {
   return (
     <div className="container py-4 flex justify-between items-center">
       <div className="flex items-center gap-3">
         <img src={Logo} alt="logo" className="w-10" />
-        <span className="text-2xl font-bold">MonoChrome</span>
+        <span className="text-2xl font-bold">Chroma</span>
       </div>
       <div className="hidden md:block">
         {NavLinks.map((link) => {
@@ -42,7 +43,7 @@ const Navbar = () => {
           );
         })}
       </div>
-      <button className="text-sm lg:text-base border-[1px] border-black px-4 py-2 shadow-[5px_5px_0px_0px]">
+      <button className="primary-btn">
         Try For Free
       </button>
     </div>

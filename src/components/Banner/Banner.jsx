@@ -11,9 +11,9 @@ const Banner = () => {
             className="w-[95%] md:w-full mx-auto"
           />
         </div>
-        <div className="space-y-5 flex justify-center flex-col xl:max-w-[500px]">
-          <h1 className="text-4xl font-bold font-serif">
-            We Believe that a team makes any project better
+        <div className="space-y-5 flex justify-center text-center md:text-start flex-col xl:max-w-[500px]">
+          <h1 className="text-4xl font-bold font-poppins">
+            We Believe that a Team Makes any Project Better
           </h1>
           <p className="text-gray-500 text-sm leading-7">
             We are a team of passionate individuals who are dedicated to

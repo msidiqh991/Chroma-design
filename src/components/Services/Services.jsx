@@ -33,7 +33,7 @@ const Services = () => {
   return (
     <div className="container py-20">
       <div className="space-y-2 text-center max-w-[350px] mx-auto mb-8">
-        <h1 className="text-3xl font-bold font-serif">What we provide</h1>
+        <h1 className="text-3xl font-bold font-poppins">What We Provide</h1>
         <p className="text-gray-500">
           Bring your dream home to life with one-on-one design help & hand
           picked products
@@ -49,7 +49,7 @@ const Services = () => {
               <div className="inline-block text-xl border-[1px] border-black rounded-full p-3">
                 {card.icon}
               </div>
-              <p className="text-2xl font-bold font-serif">{card.title}</p>
+              <p className="text-2xl font-bold font-poppins">{card.title}</p>
               <p className="text-gray-400 text-xs">{card.description}</p>
               <a
                 href={card.link}

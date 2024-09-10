@@ -44,9 +44,9 @@ const Services = () => {
           return (
             <div
               key={card.id}
-              className="space-y-4 border-[1px] border-black/30 px-6 py-12 hover:bg-black hover:text-white hover:shadow-[7px_7px_0px_0px_#6c6c6c] duration-300"
+              className="space-y-4 border-[1px] border-black/30 px-6 py-12 hover:bg-black hover:text-white hover:shadow-[7px_7px_0px_0px_#6c6c6c] group duration-300"
             >
-              <div className="inline-block text-xl border-[1px] border-black rounded-full p-3">
+              <div className="inline-block text-xl border-[1px] border-black rounded-full p-3 group-hover:border-white">
                 {card.icon}
               </div>
               <p className="text-2xl font-bold font-poppins">{card.title}</p>

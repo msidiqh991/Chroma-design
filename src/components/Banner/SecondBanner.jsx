@@ -14,11 +14,11 @@ const SecondBanner = () => {
           </p>
           <div className="flex gap-4 justify-center md:justify-start items-center">
             <div className="max-w-[80px] space-y-2">
-              <p className="text-3xl font-bold font-poppins">12</p>
+              <p className="text-3xl font-bold font-poppins">12+</p>
               <p className="text-gray-500 text-sm">Years of Experience</p>
             </div>
             <div className="max-w-[80px] space-y-2">
-              <p className="text-3xl font-bold font-poppins">350+</p>
+              <p className="text-3xl font-bold font-poppins">300+</p>
               <p className="text-gray-500 text-sm">Satisfied Clients</p>
             </div>
             <div className="max-w-[80px] space-y-2">

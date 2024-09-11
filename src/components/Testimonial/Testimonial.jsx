@@ -41,7 +41,7 @@ const Testimonial = () => {
       <div className="container grid grid-cols-1 md:grid-cols-3 gap-6">
         {TestimonialData.map((item) => {
           return (
-            <div key={item.id} className="rounded-md bg-gray-100 p-5 hover:bg-black group duration-300 hover:shadow-[5px_5px_0px_0px_#6c6c6c]">
+            <div key={item.id} className="rounded-md bg-gray-100 p-5 hover:bg-slate-800 group duration-300 hover:shadow-[5px_5px_0px_0px_#6c6c6c]">
               <div className="flex flex-row items-center gap-5">
                 <img
                   src={item.img}

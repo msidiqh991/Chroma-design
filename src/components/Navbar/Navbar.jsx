@@ -1,4 +1,5 @@
 import Logo from "../../assets/logo.png";
+import { motion } from "framer-motion";
 
 const NavLinks = [
   {
@@ -25,7 +26,11 @@ const NavLinks = [
 
 const Navbar = () => {
   return (
-    <div className="container py-4 flex justify-between items-center">
+    <motion.div 
+    initial={{ y: -100 }} 
+    animate={{ y: 0 }} 
+    transition={{ duration: 0.5 }}
+    className="container py-4 flex justify-between items-center">
       <div className="flex items-center gap-3">
         <img src={Logo} alt="logo" className="w-10" />
         <span className="text-2xl font-bold">Chroma</span>
@@ -46,7 +51,7 @@ const Navbar = () => {
       <button className="primary-btn">
         Try For Free
       </button>
-    </div>
+    </motion.div>
   );
 };
 

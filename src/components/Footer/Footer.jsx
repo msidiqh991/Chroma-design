@@ -1,16 +1,22 @@
+import { motion } from "framer-motion";
 import Logo from "../../assets/logo.png";
 import { FaPhone } from "react-icons/fa6";
 import { LuMessageSquare } from "react-icons/lu";
+import { SlideLeft } from "../../animation/animate";
 
 const Footer = () => {
   return (
+    <motion.footer
+      variants={SlideLeft(0.2)}
+      initial="initial"
+      whileInView="animate"
+    >
       <div className="container py-11">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          
           <div className="space-y-4 font-semibold">
             <div className="flex items-center space-x-3">
               <img src={Logo} alt="" className="w-6 justify-center" />
-              <p className="text-xl font-semibold">Interior</p>
+              <p className="text-xl font-semibold">Chroma</p>
             </div>
             <p>Old Kebayoran, South Jakarta, Indonesia</p>
             <p>@ 2024 Muhammad Sidiq H. All rights reserved</p>
@@ -63,16 +69,17 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-3 italic">
                 <LuMessageSquare />
-                <a href="#">ourSample@company.com</a>
+                <a href="#">oursample@company.com</a>
               </li>
             </ul>
           </div>
         </div>
 
-        <p className="text-center text-sm font-semibold  border-t-2 pt-5 mt-5">
+        <p className="text-center text-sm font-semibold  border-t-2 pt-5 mt-10">
           Copyright &copy; 2024 Muhammad Sidiq Hardiansyah All rights reserved
         </p>
       </div>
+    </motion.footer>
   );
 };
 

@@ -7,6 +7,7 @@ import { SlideLeft } from "../../animation/animate";
 const Footer = () => {
   return (
     <motion.footer
+      id="footer"
       variants={SlideLeft(0.2)}
       initial="initial"
       whileInView="animate"

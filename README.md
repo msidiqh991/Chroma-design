@@ -40,6 +40,10 @@ Start the server
   npm run dev
 ```
 
+## Deployment
+
+*https://msidiqh991.github.io/Chroma-design/*
+
 
 ## Support
 

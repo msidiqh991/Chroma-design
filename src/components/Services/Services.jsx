@@ -36,7 +36,7 @@ const ServiceCard = [
 
 const Services = () => {
   return (
-    <div className="container py-20">
+    <div id="services" className="container py-20">
       <div className="space-y-2 text-center max-w-[350px] mx-auto mb-8">
         <motion.h1
           variants={SlideUp(0.2)}

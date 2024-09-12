@@ -5,22 +5,22 @@ const NavLinks = [
   {
     id: 1,
     title: "About",
-    link: "#",
+    link: "#hero",
   },
   {
     id: 2,
     title: "Services",
-    link: "#",
+    link: "#services",
   },
   {
     id: 3,
     title: "Project",
-    link: "#",
+    link: "#project",
   },
   {
     id: 4,
     title: "Contact",
-    link: "#",
+    link: "#footer",
   },
 ];
 

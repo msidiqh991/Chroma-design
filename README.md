@@ -4,8 +4,6 @@
 A Responsive Landing Page Web based on Monochrome theme and animated by Framer Motion.
 
 
-
-
 ## Tech Stack
 
 - ![Logo React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) 
@@ -42,7 +40,7 @@ Start the server
 
 ## Deployment
 
-*https://msidiqh991.github.io/Chroma-design/*
+*https://msidiqh991.github.io/Chroma-design/#*
 
 
 ## Support
